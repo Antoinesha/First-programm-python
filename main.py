@@ -17,10 +17,10 @@ print("2. Conversion de centimetre vers pouce")
 choix = input(print("Quel est votre choix ? : "))
 
 if choix != "1" and choix != "2":
-    print("Vous avez choisi une option invalide. Veuil relancer le programme")
+    print("Vous avez choisi une option invalide. Veuiller relancer le programme")
     exit()  # Quitter le programme
 
-print(f"Vous avez choisi l'option {choix}. Nous  commencer la conversion")
+print(f"Vous avez choisi l'option {choix}. Nous allons commencer la conversion")
 
 if choix == "1":
     print("Vous avez choisi la conversion de pouce vers centimetre")
